@@ -126,8 +126,8 @@ body{
     margin-top: 2m;
 }
 .box{
-    height: 15em;
-    width: 17em;
+    height: 75%;
+    width: 25%;
     margin: 0 1em;
     border-radius: 5px;
     padding: 2em;
@@ -141,8 +141,71 @@ body{
 .box_three{
     background-color: #FFF4D6;
 }
-
-
+/* Corporate partners */
+#corporate_partners{
+    background-color: #FEEEEE;
+    width: 82%;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#corporate_partners p{
+    width: 80%;
+    text-align: justify;
+}
+.logo{
+    height: 5em;
+    width: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{
+    height: 2em;
+    width: auto;
+    margin-right: 2em;
+}
+/* corporate partners */
+/* Get my update */
+#get_my_update{
+    width: 85%;
+    margin: auto;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.update_email{
+    height: 10em;
+    width: 40em;
+    background-color: #FFF4D6;
+}
+.update_email form{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.update_email form input{
+    border: none;
+    outline: none;
+    padding: .5em .9em;
+    border-radius: 5px 0 0 5px;
+    background-color: rgb(235, 235, 235);
+}
+.update_email form #submit{
+    padding: .5em .9em;
+    color: #fff;
+    font-size: .8em;
+    text-decoration: none;
+    background-color: #F85858;
+    border-radius: 0 5px 5px 0;
+}
+/* Get my update */
 
 /* Footer */
 #footer{
